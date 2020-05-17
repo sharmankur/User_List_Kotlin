@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.app.chasebank"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColorWhite">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recUserList"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:paddingRight="@dimen/btn_padding_left_right"
+            android:paddingLeft="@dimen/btn_padding_left_right"
+            android:layout_marginRight="@dimen/margin_fab_left"
+            android:layout_marginBottom="@dimen/margin_fab_bottom"
+            android:background="@drawable/btn_rounded_dark"
+            android:textSize="@dimen/btn_text_size_medium"
+            android:textColor="@color/textColorWhite"
+            android:text="@string/btn_Save_txt" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:paddingRight="@dimen/btn_padding_left_right"
+            android:paddingLeft="@dimen/btn_padding_left_right"
+            android:layout_marginLeft="@dimen/margin_fab_left"
+            android:layout_marginBottom="@dimen/margin_fab_bottom"
+            android:background="@drawable/btn_rounded_light"
+            android:textSize="@dimen/btn_text_size_medium"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/btn_Cancel_txt" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

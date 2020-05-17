@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="no_width">0dp</dimen>
+    <dimen name="common_padding_tv">8dp</dimen>
+    <dimen name="margin_fab_left">20dp</dimen>
+    <dimen name="margin_fab_right">20dp</dimen>
+    <dimen name="margin_fab_bottom">15dp</dimen>
+    <dimen name="common_padding_fab">2dp</dimen>
+    <dimen name="design_fab_size_normal">90dp</dimen>
+    <dimen name="design_fab_size_mini">30dp</dimen>
+
+    <dimen name="btn_text_size_medium">15dp</dimen>
+    <dimen name="btn_padding_left_right">15dp</dimen>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/textColorWhite"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColorWhite"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtFirstNameVal"
+            android:layout_width="@dimen/no_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:padding="@dimen/common_padding_tv"
+            android:text="@string/first_name"
+            android:textAllCaps="true" />
+
+
+        <TextView
+            android:id="@+id/txtLastNameVal"
+            android:layout_width="@dimen/no_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:padding="@dimen/common_padding_tv"
+            android:text="@string/last_name"
+            android:textAllCaps="true" />
+
+
+        <TextView
+            android:id="@+id/txtPhoneNoVal"
+            android:layout_width="@dimen/no_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:padding="@dimen/common_padding_tv"
+            android:text="@string/phone_number"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/txtCityVal"
+            android:layout_width="@dimen/no_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:includeFontPadding="false"
+            android:padding="@dimen/common_padding_tv"
+            android:text="@string/city"
+            android:textAllCaps="true" />
+
+
+        <TextView
+            android:id="@+id/txtStateVal"
+            android:layout_width="@dimen/no_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:padding="@dimen/common_padding_tv"
+            android:text="@string/state"
+            android:textAllCaps="true" />
+
+
+        <TextView
+            android:id="@+id/txtPinCodeVal"
+            android:layout_width="@dimen/no_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:padding="@dimen/common_padding_tv"
+            android:text="@string/pincode"
+            android:textAllCaps="true" />
+
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnEdit"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/textColorWhite"
+        android:layout_marginLeft="@dimen/margin_fab_left"
+        android:src="@drawable/ic_mode_edit_black_24dp"
+        />
+</RelativeLayout>

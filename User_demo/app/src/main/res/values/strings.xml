@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UserListDemo</string>
+
+    <!-- User labels-->
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="pincode">Pincode</string>
+
+    <string name="btn_Save_txt">SAVE</string>
+    <string name="btn_Cancel_txt">CANCEL</string>
+</resources>

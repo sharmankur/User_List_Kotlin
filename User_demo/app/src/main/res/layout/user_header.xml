@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/textColorWhite"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtFirstName"
+                android:layout_width="@dimen/no_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:padding="@dimen/common_padding_tv"
+                android:text="@string/first_name"
+                android:textAllCaps="true"
+                android:textColor="@color/textColorGrey"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtLastName"
+                android:layout_width="@dimen/no_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:padding="@dimen/common_padding_tv"
+                android:text="@string/last_name"
+                android:textAllCaps="true"
+                android:textColor="@color/textColorGrey"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtPhoneNo"
+                android:layout_width="@dimen/no_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:padding="@dimen/common_padding_tv"
+                android:text="@string/phone_number"
+                android:textAllCaps="true"
+                android:textColor="@color/textColorGrey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCity"
+                android:layout_width="@dimen/no_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:padding="@dimen/common_padding_tv"
+                android:text="@string/city"
+                android:textAllCaps="true"
+                android:textColor="@color/textColorGrey"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtState"
+                android:layout_width="@dimen/no_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:padding="@dimen/common_padding_tv"
+                android:text="@string/state"
+                android:textAllCaps="true"
+                android:textColor="@color/textColorGrey"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtPinCode"
+                android:layout_width="@dimen/no_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:padding="@dimen/common_padding_tv"
+                android:text="@string/pincode"
+                android:textAllCaps="true"
+                android:textColor="@color/textColorGrey"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
